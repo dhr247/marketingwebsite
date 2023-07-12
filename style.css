@@ -1,0 +1,297 @@
+/* Base CSS Code for well Structured Websites */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: rgb(46, 71, 93);
+    --secondary-text-color: #577592;
+    --accent-color: rgb(6, 101, 112);
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body {
+    font-family: "Lexend Deca", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1 {
+    font-family: "Queens Medium", serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "Queens Medium", serif;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: "Queens Medium", serif;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-family: "Queens Medium", serif;;
+}
+
+p {
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ------------------------------------------------------- */
+
+/* Utility Classes */
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
+
+.primary-button {
+    border: 0.5px solid rgb(255, 98, 0);
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 400;
+    color: rgb(255, 98, 0) !important;
+    padding: 6px 12px;
+    box-shadow: 0 0 2px #577592; 
+    transition: 0.2s ease-out;
+}
+
+.primary-button:hover {
+    background-color: #e1b596;
+}
+
+.secondary-button {
+    border: 0.5px solid rgb(255, 98, 0);
+    background-color: rgb(255, 98, 0);
+    border-radius: 4px;
+    font-weight: 400;
+    color: white !important;
+    padding: 6px 27.5px;
+    transition: 0.2s ease-out;
+}
+
+.secondary-button:hover {
+    border-color: rgb(255, 98, 0);
+    color: #e1b596 !important;
+}
+
+/* Top Banner */
+
+.banner-text {
+    color: var(--primary-text-color);
+    font-size: 12px;
+    font-weight: 1000;
+}
+
+.top-banner {
+    justify-content: space-between;
+    /* gap: 475px; */
+    padding: 8px;
+}
+
+.top-banner-left ul {
+    gap: 20px;
+}
+
+.top-banner-right ul {
+    gap: 20px;
+}
+
+.top-banner .hover-link:hover {
+    text-decoration: underline;
+}
+
+/* Nav Banner */
+
+nav {
+    margin-bottom: 20px;
+}
+
+.main-nav {
+    margin-top: 20px;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.company-logo img {
+    width: 100px;
+}
+
+.nav-right ul {
+    gap: 20px;
+}
+
+.nav-left ul {
+    gap: 20px;
+}
+
+.nav-left {
+    gap: 70px;
+}
+
+.nav-right {
+    font-size: 14px;
+}
+
+.nav-left .hover-link:hover {
+    text-decoration: underline;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-logo-toggle {
+    display: none;
+}
+
+/* Header Section */
+
+header {
+    padding: 80px var(--padding-inline-section);
+    background-color: rgb(254, 244, 234);
+}
+
+.header-section {
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left {
+    max-width: 60vw;
+}
+
+.header-section p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.header-section h1 {
+    font-weight: 1000;
+}
+
+.header-right img {
+    width: 100%;
+}
+
+header .primary-button {
+    padding: 20px 50px;
+    margin-left: 20px;
+}
+
+header .secondary-button {
+    padding: 20px 60px;
+}
+
+/* Customers Section */
+
+.customers {
+    padding: 60px var(--padding-inline-section) 0;
+}
+
+.customers-section {
+    justify-content: center;
+    gap: 50px;
+}
+
+.customers-right {
+    max-width: 100%;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.customers-section img {
+    width: 150px;
+}
+
+.customers .customer-grow {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+
+.customers .customers-shrink {
+    font-weight: 10 !important;
+}
+
+.row-1 {
+    justify-content: center;
+}
+
+/* Grow Section */
+
+.grow {
+    padding: 80px var(--padding-inline-section);
+}
+
+.grow-section {
+    justify-content: center;
+    gap: 60px;
+}
+
+.grow-left {
+    max-width: 80vw;
+}
+
+.grow-section p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.grow .grow-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+
+.grow-right img {
+    width: 100%;
+}
+
+.grow .primary-button {
+    padding: 25px 50px;
+    margin-left: 20px;
+}
+
+.grow .secondary-button {
+    padding: 25px 60px;
+}
