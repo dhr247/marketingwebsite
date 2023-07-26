@@ -1,0 +1,255 @@
+body {
+    color: rgb(46, 71, 93);
+}
+
+.container {
+    max-width: 1080px !important;
+}
+
+/* Buttons */
+
+.primary-custom {
+    background-color: #ff5c35;
+    color: white;
+    transition: opacity 0.1s ease;
+}
+
+.primary-custom:hover {
+    background-color: #ff5c35;
+    color: white;
+    opacity: 0.5;
+}
+
+.secondary-custom {
+    color: #ff5c35;
+    border: #ff5c35 solid 1px;
+    transition: background-color 0.1s ease, box-shadow 0.3s ease;
+}
+
+.secondary-custom:hover {
+    color: #ff5c35;
+    border: #ff5c35 solid 1px;
+    background-color: #ffccc0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* --------------------------------------- */
+
+/* Header */
+
+.link-decoration a {
+    text-decoration: none;
+    color: rgb(46, 71, 93);
+}
+
+.link-decoration a:hover {
+    text-decoration: underline;
+    color: #008cb4;
+}
+
+#underline-exception:hover {
+    text-decoration: none;
+    color: rgb(46, 71, 93);
+}
+
+.desktop-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding:15px 0;
+    background-color: white;
+}
+
+.mobile-navbar {
+    position: sticky;
+    top: 0;
+}
+
+/* Hero */
+
+.hero-section {
+    background-color: rgb(254, 244, 234);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hero-section-mobile {
+    background-color: rgb(254, 244, 234);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-heading {
+    font-family: "Queens Medium", serif;
+    font-size: 4rem;
+    line-height: 100%;
+}
+
+.hero-heading-mobile {
+    font-family: "Queens Medium", serif;
+    font-size: 2.5rem;
+    line-height: 100%;
+}
+
+.hero-section .primary-custom {
+    padding: 30px 77px;
+}
+
+.hero-section .secondary-custom {
+    padding: 30px 67px;
+    border: #ff5c35 solid 1.3px;
+}
+
+.hero-section-mobile .primary-custom {
+    padding: 35px 77px;
+}
+
+.hero-section-mobile .secondary-custom {
+    padding: 35px 67px;
+    border: #ff5c35 solid 1.3px;
+}
+
+.hero-section-mobile img {
+    max-width: 75%;
+}
+
+/* Explanation Section */
+
+.explanation-section {
+    background-color: #f6f9fc;
+}
+
+.explanation-section .text-section {
+    max-width: 85%;
+}
+
+.card {
+    color: rgb(46, 71, 93);
+}
+
+.card-heading img {
+    width: 30px;
+}
+
+.card li {
+    margin-bottom: 10px;
+}
+
+.lower-card {
+    padding-top: 75px;
+}
+
+/* Green Section */
+
+.green-section {
+    background-image: linear-gradient(45deg,#0fbfbf,#4fb06d);
+}
+
+.green-section .text-section {
+    max-width: 75%;
+}
+
+.green-section .custom-image-size {
+    max-width: 150px;
+}
+
+.green-section .custom-border-1 {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.green-section .custom-border-2 {
+    border-bottom: 1px solid white;
+}
+
+.green-section .custom-border-3 {
+    border-right: 1px solid white;
+}
+
+.green-section .custom-border-4 {
+    border: none;
+}
+
+/* Customers Section */
+
+.customers-section {
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.customers-section .custom-container {
+    max-width: 80%;
+}
+
+.customers-section .primary-custom {
+    padding: 35px 40px;
+}
+
+.customers-section .secondary-custom {
+    padding: 35px 40px;
+}
+
+.customers-section-mobile img {
+    max-width: 50%;
+}
+
+/* Footer */
+
+.footer-section {
+    background-color: #213343;
+    color: rgb(182, 199, 214);
+}
+
+.features-section a {
+    text-decoration: none;
+    color: rgb(182, 199, 214);
+}
+
+.features-section a:hover {
+    text-decoration: underline;
+    color: #008cb4;
+}
+
+.features-section {
+    line-height: 2.25rem;
+}
+
+.custom-border-5 {
+    border-right: solid white 1px;
+}
+
+.custom-border-6 {
+    border-bottom: solid rgb(182, 199, 214) 1px;
+}
+
+.download-column {
+    max-width: 75%;
+    gap: 20px;
+}
+
+.legal-section a {
+    text-decoration: underline;
+    color: white;
+}
+
+.legal-section a:hover {
+    text-decoration: none;
+    color: #008cb4;
+}
+
+/* Chat Button */
+
+.chat-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.chat-button a {
+    text-decoration: none;
+    color: rgb(46, 71, 93);
+}
+
+.chat-button a:hover {
+    text-decoration: none;
+    color: rgb(46, 71, 93);
+}
